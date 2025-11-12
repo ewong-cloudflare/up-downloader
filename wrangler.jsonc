@@ -1,0 +1,26 @@
+{
+	"name": "up-downloader",
+	"main": "src/index.ts",
+	"compatibility_date": "2025-11-10",
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
+	"r2_buckets": [
+		{
+			"binding": "BUCKET",
+			"bucket_name": "large-files"
+		}
+	],
+	"observability": {
+		"enabled": true,
+		"head_sampling_rate": 1
+	},
+	"build": {
+		"command": "npm run build",
+		"cwd": ".",
+		"watch_dir": "src"
+	},
+	"assets": {
+		"directory": "dist"
+	}
+}
