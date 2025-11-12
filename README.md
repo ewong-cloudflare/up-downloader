@@ -22,7 +22,7 @@ A modern file upload application built with Cloudflare Workers, R2 storage, Reac
 1. Clone the repository:
    ```bash
    git clone <your-repo-url>
-   cd store-large-file
+   cd up-downloader
    ```
 
 2. Install dependencies:
@@ -70,7 +70,7 @@ A modern file upload application built with Cloudflare Workers, R2 storage, Reac
 The following environment variables need to be set in your Cloudflare dashboard or via `wrangler.jsonc`:
 
 - No environment variables required as R2 bucket is configured via `wrangler.jsonc`
-
+```
 npx wrangler secret put R2_ACCESS_KEY_ID
 npx wrangler secret put R2_SECRET_ACCESS_KEY
 npx wrangler secret put R2_ACCOUNT_ID
