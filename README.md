@@ -1,4 +1,4 @@
-# Large File Upload with Cloudflare Workers and R2
+# File Upload/Download with Cloudflare Workers and R2
 
 A modern file upload application built with Cloudflare Workers, R2 storage, React, and TypeScript. This project demonstrates how to handle large file uploads efficiently using Cloudflare's infrastructure.
 
